@@ -1,0 +1,15 @@
+[
+{
+  "modid": "towel",
+  "name": "BTM Towel",
+  "description": "Every traveler need a towel!",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["drcrazy"],
+  "credits": "McJty",
+  "logoFile": "",
+  "screenshots": []
+}
+]
