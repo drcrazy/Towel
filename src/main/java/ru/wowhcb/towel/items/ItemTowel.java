@@ -64,6 +64,7 @@ public class ItemTowel extends Item {
 	/**
 	 * Called when the equipped item is right clicked.
 	 */
+	@Override
 	public ActionResult<ItemStack> onItemRightClick(World worldIn, EntityPlayer playerIn, EnumHand handIn) {
 		return new ActionResult<ItemStack>(EnumActionResult.SUCCESS, playerIn.getHeldItem(handIn));
 	}
@@ -72,6 +73,7 @@ public class ItemTowel extends Item {
 	 * allows items to add custom lines of information to the mouseover
 	 * description
 	 */
+	@Override
 	@SideOnly(Side.CLIENT)
 	public void addInformation(ItemStack stack, @Nullable World worldIn, List<String> tooltip, ITooltipFlag flagIn) {
 		String s = I18n.translateToLocal("item.towel.towel.tooltip");
